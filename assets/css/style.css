@@ -9,7 +9,7 @@ body {
  margin: 0;
  padding: 0;
  font-family: Helvetica, Arial, sans-serif;
- background:#C0C0C0;
+ background-image: url(../images/dust_scratches.png);
                 
 }
 
@@ -23,10 +23,10 @@ h1 {
 	width: 300px;
 	position: relative;
 	left: -330px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #main_bio {
-	float: left;
 	width: 960px;
 }
 
@@ -36,17 +36,19 @@ h1 {
 
 .container {
 	width: 960px;
-	height: 500px;
-	margin: 50px auto;
+	height: 700px;
+	margin: 50px auto 50px;
 	background-color: white;
-	box-shadow: 1px 1px 1px grey
+	box-shadow: 1px 1px 1px grey;
+	margin-bottom: 150px;
 }
 
 h2 {
 	font-size: 35px;
 	color: #4aaaa5;
 	margin: 0px auto;
-	padding: 30px
+	padding: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 hr {
@@ -59,12 +61,13 @@ nav {
 	margin-top: -75px;
 	width: 300px;
 	position: relative;
-	left: 357px	
+	left: 342px;	
 }
 ul li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 10px;	
 }
+
 ul li ~ li {
   border-left: 1px solid #777777;
 }
@@ -74,18 +77,69 @@ a:link, a:visited {
 	color: #777777;
 	font-size: 18px;
 }
+a {
+	margin-left: 5px;
+}
 
 footer{
 	background-color: #666666;
 	height: 50px;
-	position: fixed;
+	position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
+	border-top: 8px solid #4aaaa5;
 }
 
 h4{
 	text-align: center;
 	color: white;
 	margin-top: 15px;
+}
+#headshot {
+	width: 25%;
+	float: left;
+	margin-left: 8px;
+	padding: 20px;
+}
+
+.bio {
+	padding: 10px 30px;
+	line-height: 2;
+	color: #777777;
+	font-size: 18px;
+}
+
+form{
+	margin: 30px;
+}
+
+#name, #email {
+	width: 900px;
+	height: 25px
+}
+
+::placeholder {
+	padding: 10px;
+}
+
+textarea {
+	width: 900px;
+	height: 200px;
+}
+
+#submit {
+	margin-top: 20px;
+	background-color: #4aaaa5;
+	width: 150px;
+	height: 50px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 18px;
+	color: #777777;
 }
