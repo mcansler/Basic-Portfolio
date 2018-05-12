@@ -2,13 +2,14 @@ header {
     margin:0 auto;
     height: 100px;
 	background-color: white;
+	border-bottom: 2px solid #C7C7C7 ;
 }
 
 body {
                 
  margin: 0;
  padding: 0;
- font-family: Helvetica, Arial, sans-serif;
+ font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
  background-image: url(../images/dust_scratches.png);
                 
 }
@@ -36,10 +37,19 @@ h1 {
 
 .container {
 	width: 960px;
+	height: 550px;
+	margin: 50px auto 50px;
+	background-color: white;
+	border: 1px solid #C7C7C7;
+	margin-bottom: 150px;
+}
+
+.contact {
+	width: 960px;
 	height: 700px;
 	margin: 50px auto 50px;
 	background-color: white;
-	box-shadow: 1px 1px 1px grey;
+	border: 1px solid #C7C7C7;
 	margin-bottom: 150px;
 }
 
@@ -53,6 +63,7 @@ h2 {
 
 hr {
 	margin-top: 0;
+	width: 94%;
 }
 
 nav {
@@ -76,6 +87,11 @@ a:link, a:visited {
     text-decoration: none;
 	color: #777777;
 	font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: #4aaaa5;
 }
 a {
 	margin-left: 5px;
@@ -101,10 +117,11 @@ h4{
 	float: left;
 	margin-left: 8px;
 	padding: 20px;
+	margin-top: -10px
 }
 
 .bio {
-	padding: 10px 30px;
+	padding: 0px 30px;
 	line-height: 2;
 	color: #777777;
 	font-size: 18px;
@@ -142,4 +159,45 @@ textarea {
 p{
 	font-size: 18px;
 	color: #777777;
+}
+
+.portfolio {
+	width: 960px;
+	height: 920px;
+	margin: 50px auto 50px;
+	background-color: white;
+	border: 1px solid #C7C7C7;
+	margin-bottom: 150px;
+}
+
+.polaroid {
+  	
+  position: relative;
+  margin: 30px;	
+  float: left;	
+}
+
+.label {
+ 
+  background-color: #4aaaa5;	
+  text-align: center;
+  height: 60px;
+  width: 250px;	
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);	
+  
+}
+	
+.thumbnail{
+
+  width: 250px;
+  height: 200px;	
+	
+}
+
+.image_label {
+	font-size: 18px;
+	color: white;
 }
